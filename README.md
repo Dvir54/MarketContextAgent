@@ -70,7 +70,7 @@ MarketContextAgent implements a **RAO loop** where Claude operates as the reason
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/MarketContextAgent.git
+git clone https://github.com/Dvir54/MarketContextAgent.git
 cd MarketContextAgent
 
 # Create virtual environment
@@ -106,7 +106,7 @@ Expected output: `MCP Server running on stdio`
 ### Manual Execution
 
 ```bash
-claude "Analyze AAPL and alert me via email if price moved more than 10%"
+claude "Analyze Stock_Name and alert me via email if price moved more than 10%"
 ```
 
 ### 24/7 Automation (Windows Task Scheduler)
@@ -116,7 +116,7 @@ claude "Analyze AAPL and alert me via email if price moved more than 10%"
 ```batch
 @echo off
 cd /d "C:\path\to\MarketContextAgent"
-call claude "Analyze TSLA and alert me via email if price moved more than 10%" >> agent_log.txt 2>&1
+call claude "Analyze Stock_Name and alert me via email if price moved more than 10%" >> agent_log.txt 2>&1
 exit
 ```
 
@@ -167,7 +167,7 @@ MarketContextAgent/
 
 **Dvir** - [dvir54693@gmail.com](mailto:dvir54693@gmail.com)
 
-**Project Link**: [https://github.com/yourusername/MarketContextAgent](https://github.com/yourusername/MarketContextAgent)
+**Project Link**: [https://github.com/Dvir54/MarketContextAgent](https://github.com/Dvir54/MarketContextAgent)
 
 ---
 
